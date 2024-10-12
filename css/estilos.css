@@ -1,0 +1,580 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*inicio cabecera*/
+.cabecera{
+    background-color: rgb(14, 168, 0);
+    color: white;
+    width: 70%;
+    height: 50px;
+    padding: 0 40px;
+}
+.cabecera a{
+    color: white;
+}
+.cabecera_link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cabecera_img{
+    object-fit: cover;
+    height: 90%;
+    margin-right: 10px;
+}
+
+/*fin cabecera*/
+
+.navegacion{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+.navegacion a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+}
+
+.navegacion a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 185, 87);
+}
+
+
+/*inicio navegacion 1*/
+.banner{
+    background-image: url(/img/fondo.png);
+    background-position: center;
+    background-size: 100%;
+    width: 70%;
+    height: calc(130vh - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-size: 140px;
+    color: white;
+    -webkit-text-stroke: 3px blue;
+    text-align: center;
+}
+.banner h2{
+    font-size: 65px;
+    color: blue;
+    
+}
+
+.banner h3{
+    font-size:25px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1.5px black;
+    
+}
+
+.banner a{
+    background-color: rgb(90, 106, 255);
+    color: white;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 75px;
+}
+
+.banner a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(90, 106, 255);
+}
+
+/*fin de navegacion 1*/
+
+/*inicia seccion 2*/
+.seccion-2{
+    background-color: rgb(230, 230, 230);
+    width: 70%;
+    height: 170vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros{
+    margin: 10%;
+    background-color: rgb(107, 107, 107);
+}
+.nosotros h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+}
+.nosotros p{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.mision{
+    margin: 10%;
+    background-color: rgb(107, 107, 107);
+}
+.mision h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+}
+.mision p{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.vision{
+    margin: 10%;
+    background-color: rgb(107, 107, 107);
+}
+.vision h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+}
+.vision p{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+/*inicia seccion 3*/
+.seccion-3{
+    background-color: rgb(230, 230, 230);
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.bloque-izq{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.izq-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.izq-titulo h2{
+    font-size: 50px;
+}
+
+.izq-titulo h3{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.izq-img{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.izq-img img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.izq-parrafo{
+    font-size: 18px;
+}
+
+.bloque-der{
+    width: 40%;
+    height: 100%;
+    padding: 0 3%;
+}
+
+.der-titulo{
+    text-align: center;
+}
+
+.der-titulo h3{
+    font-size: 20px;
+}
+
+.der-recetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 30px 0;
+}
+
+.recetas-img{
+    width: 100%;
+}
+
+.recetas-img img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.recetas-textos{
+    width: 50%;
+    margin: 0 10px;
+}
+
+.recetas-textos h4{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.recetas-textos p{
+    font-size: 15px;
+    text-align: justify;
+}
+.recetas-textos a{
+    font-size: 15px;
+    margin: 10px;
+}
+/*Finaliza seccion 3*/
+
+/*inicio seccion 4*/
+.seccion-4{
+    background-color: rgb(230, 230, 230);
+    width: 70%;
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.article{
+    width: 60%;
+    height: 100%;
+    padding: 0% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla_titulo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla-titulo h2{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.tabla-titulo h3{
+    font-size: 50px;
+    margin-top: 10px;
+    color: rgb(63, 63, 63);
+    text-align: center;
+}
+.tabla-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.tabla{
+    table-layout: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+.fila-encabezado{
+    background-color: rgb(49, 146, 67);
+    width: auto;
+    height: 40px;
+    font-size: 30px;
+}
+.fila-dato{
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+}
+.fila-dato:nth-child(odd){
+    background-color: rgb(245, 245, 245);
+}
+.fila-dato:nth-child(even){
+    background-color: rgb(231, 231, 231);
+}
+.columna{
+    border: 1px solid black;
+    text-align: center;
+}
+.rs-div{
+    background-color:rgb(230, 230, 230);
+    width: 100%;
+    height: auto;
+}
+.rs-img{
+    width: 100%;
+    height: 40px;
+}
+.rs-img img{
+    object-fit: cover;
+    height: 100px;
+    margin: 0 10px;
+    margin-top: 25px;
+}
+
+
+/*finaliza seccion 4*/
+
+/*inicia seccion 5*/
+.contactos{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+.seccion-5{
+    background-color: rgb(230, 230, 230);
+    width: 70%;
+    height: 215vh;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.aside{
+    background-color: rgb(25, 110, 110);
+    width: 40%;
+    height: 100%;
+}
+.mapa{
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 100%;
+}
+.mapa iframe{
+    width: 550px;
+    height: 500px;
+    border: 10px black;
+    margin-left: 20%;
+    margin-top: 80px;
+}
+.form-div{
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    height: 80%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.form-div h3{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.form-div p{
+    font-size: 18px;
+    padding: 5px 0;
+}
+.formulario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+input{
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+    outline: none;
+    resize: none;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.submit{
+    width: 50%;
+    height: 45px;
+    margin: 5px 0;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.seccion-contactos{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 120px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.ubicacion{
+    height: 100px;
+    font-size: 30px;
+}
+.ubicacion h3{
+    font-size: 35px;
+}
+.ubicacion h4{
+    font-size: 25px;
+}
+.redes{
+    margin-left: 100px;
+}
+.redes h3{
+    font-size: 30px;
+}
+.logos img{
+    height: 70px;
+}
+
+/*inicia seccion 6*/
+.seccion-6{
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navegacion-footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.navegacion-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+}
+.navegacion-footer a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 185, 87);
+}
+.contenedor-s6{
+    width: 100%;
+    height: calc(100% - 120px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.textos-s6{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.textos-s6 h3{
+    color: rgb(14, 199, 255);
+    font-size: 24px;
+    margin-top: -20px;
+}
+.textos-s6 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 5px 5px;
+    align-items: center;
+}
+.textos-s6:nth-child(odd){
+    background-color: rgb(34, 34, 34);
+}
+.textos-s6:nth-child(even){
+    background-color: rgb(64, 64, 64);
+}
+.footer{
+    background-color: green;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.footer p{
+    font-size: 18px;
+}
+/*Finaliza seccion 6*/
